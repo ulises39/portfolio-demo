@@ -1,0 +1,38 @@
+Rebalancing  Portfolio 1 ...
+Holdings:
+	[ Ticker: AMZN Shares: 10 Price: 100 ]
+	[ Ticker: AAPL Shares: 10 Price: 100 ]
+	[ Ticker: MSFT Shares: 10 Price: 100 ]
+	[ Ticker: GOOG Shares: 10 Price: 100 ]
+	[ Ticker: META Shares: 10 Price: 100 ]
+Aiming Targets:
+	[ Ticker: AAPL Aim: 0.1 ]
+	[ Ticker: MSFT Aim: 0.3 ]
+	[ Ticker: GOOG Aim: 0.3 ]
+	[ Ticker: META Aim: 0.1 ]
+	[ Ticker: AMZN Aim: 0.2 ]
+
+Total portfolio value: 5000
+Processing MSFT
+	Target allocation: 0.3 ; Target value: 1500
+	Difference: 500 (target value - current value) ->  1500 - 100 * 10
+	---> +  Buying 5 shares of MSFT
+Processing GOOG
+	Target allocation: 0.3 ; Target value: 1500
+	Difference: 500 (target value - current value) ->  1500 - 100 * 10
+	---> +  Buying 5 shares of GOOG
+Processing META
+	Target allocation: 0.1 ; Target value: 500
+	Difference: -500 (target value - current value) ->  500 - 100 * 10
+	---> - Selling 5 shares of META
+Processing AMZN
+	Target allocation: 0.2 ; Target value: 1000
+	Difference: 0 (target value - current value) ->  1000 - 100 * 10
+	---> 0 No action needed for AMZN
+Processing AAPL
+	Target allocation: 0.1 ; Target value: 500
+	Difference: -500 (target value - current value) ->  500 - 100 * 10
+	---> - Selling 5 shares of AAPL
+Rebalancing complete. Results:
+Stocks to buy: [{MSFT 100 5} {GOOG 100 5}]
+Stocks to sell: [{META 100 5} {AAPL 100 5}]

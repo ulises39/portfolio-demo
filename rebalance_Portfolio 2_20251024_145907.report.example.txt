@@ -1,0 +1,68 @@
+Rebalancing  Portfolio 2 ...
+Holdings:
+	[ Ticker: TBIN Shares: 11 Price: 36.54 ]
+	[ Ticker: MWHU Shares: 4 Price: 79.33 ]
+	[ Ticker: UJYL Shares: 11 Price: 59.16 ]
+	[ Ticker: UHWI Shares: 6 Price: 36.64 ]
+	[ Ticker: NJTL Shares: 2 Price: 98.58 ]
+	[ Ticker: BMOQ Shares: 12 Price: 31.26 ]
+	[ Ticker: PWEJ Shares: 10 Price: 92.43 ]
+	[ Ticker: SKBU Shares: 10 Price: 21.88 ]
+	[ Ticker: OGZO Shares: 9 Price: 64.69 ]
+	[ Ticker: CUIX Shares: 20 Price: 28.44 ]
+Aiming Targets:
+	[ Ticker: PWEJ Aim: 0.35 ]
+	[ Ticker: UJYL Aim: 0.01 ]
+	[ Ticker: OGZO Aim: 0.03 ]
+	[ Ticker: UHWI Aim: 0.01 ]
+	[ Ticker: CUIX Aim: 0.01 ]
+	[ Ticker: NJTL Aim: 0.01 ]
+	[ Ticker: BMOQ Aim: 0.01 ]
+	[ Ticker: TBIN Aim: 0.45 ]
+	[ Ticker: MWHU Aim: 0.09 ]
+	[ Ticker: SKBU Aim: 0.03 ]
+
+Total portfolio value: 4456.25
+Processing OGZO
+	Target allocation: 0.03 ; Target value: 133.6875
+	Difference: -448.52250000000004 (target value - current value) ->  133.6875 - 64.69 * 9
+	---> - Selling 6 shares of OGZO
+Processing UHWI
+	Target allocation: 0.01 ; Target value: 44.5625
+	Difference: -175.2775 (target value - current value) ->  44.5625 - 36.64 * 6
+	---> - Selling 4 shares of UHWI
+Processing CUIX
+	Target allocation: 0.01 ; Target value: 44.5625
+	Difference: -524.2375000000001 (target value - current value) ->  44.5625 - 28.44 * 20
+	---> - Selling 18 shares of CUIX
+Processing NJTL
+	Target allocation: 0.01 ; Target value: 44.5625
+	Difference: -152.5975 (target value - current value) ->  44.5625 - 98.58 * 2
+	---> - Selling 1 shares of NJTL
+Processing BMOQ
+	Target allocation: 0.01 ; Target value: 44.5625
+	Difference: -330.5575 (target value - current value) ->  44.5625 - 31.26 * 12
+	---> - Selling 10 shares of BMOQ
+Processing PWEJ
+	Target allocation: 0.35 ; Target value: 1559.6875
+	Difference: 635.3874999999999 (target value - current value) ->  1559.6875 - 92.43 * 10
+	---> +  Buying 6 shares of PWEJ
+Processing UJYL
+	Target allocation: 0.01 ; Target value: 44.5625
+	Difference: -606.1975 (target value - current value) ->  44.5625 - 59.16 * 11
+	---> - Selling 10 shares of UJYL
+Processing SKBU
+	Target allocation: 0.03 ; Target value: 133.6875
+	Difference: -85.11249999999998 (target value - current value) ->  133.6875 - 21.88 * 10
+	---> - Selling 3 shares of SKBU
+Processing TBIN
+	Target allocation: 0.45 ; Target value: 2005.3125
+	Difference: 1603.3725 (target value - current value) ->  2005.3125 - 36.54 * 11
+	---> +  Buying 43 shares of TBIN
+Processing MWHU
+	Target allocation: 0.09 ; Target value: 401.0625
+	Difference: 83.7425 (target value - current value) ->  401.0625 - 79.33 * 4
+	---> +  Buying 1 shares of MWHU
+Rebalancing complete. Results:
+Stocks to buy: [{PWEJ 92.43 6} {TBIN 36.54 43} {MWHU 79.33 1}]
+Stocks to sell: [{OGZO 64.69 6} {UHWI 36.64 4} {CUIX 28.44 18} {NJTL 98.58 1} {BMOQ 31.26 10} {UJYL 59.16 10} {SKBU 21.88 3}]

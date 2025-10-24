@@ -39,18 +39,18 @@ The rebalance process is as follows:
 
 2.  For each stock, calculate the target value (TV) based on the target allocation.
 
-    Target Value_i = TPV × Target Allocation_i
+        Target Value_i = TPV × Target Allocation_i
 
 3.  Calculate the difference between the target value and the current value.
 
-    Difference_i = Target Value_i - (Stock Shares × Stock Price)
+        Difference_i = Target Value_i - (Stock Shares × Stock Price)
 
     - A **positive Difference** means the stock is **Underweight** (should **BUY** more).
     - A **negative Difference** means the stock is **Overweight** (should **SELL** some).
 
 4.  Calculate the number of shares to buy or sell based on the difference.
 
-    Shares to Buy/Sell_i = Difference_i / Stock Price_i
+        Shares to Buy/Sell_i = Difference_i / Stock Price_i
 
     > **Note:** Since this is a simple model, we can only buy/sell whole shares (i.e, integer values)
 
